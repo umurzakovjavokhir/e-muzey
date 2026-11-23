@@ -1,0 +1,644 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--[if gte mso 9]><xml><w:WordDocument><w:View>Print</w:View><w:Zoom>100</w:Zoom><w:DoNotOptimizeForBrowser/></w:WordDocument></xml><![endif]-->
+<style>@page WordSection1 {size:210mm 297mm;margin:20mm;}div.WordSection1 {page:WordSection1;}</style>
+<style type="text/css">BODY{scrollbar-base-color:scrollbar;scrollbar-highlight-color:white;scrollbar-darkshadow-color:scrollbar;scrollbar-shadow-color:white;}#divCont DIV{border:none;white-space:normal;}#divCont IMG{float:none;vertical-align:middle;}#divCont A{text-decoration:none;}#divCont A:link{color:#008080;}#divCont A:visited{color:#008080;}#divCont A:hover{color:#ff0000;}#divCont P{margin:0px;padding:0px;line-height:1.0;}#divCont LABEL{display:none;}.aExp{text-align:left;text-indent:0px;margin:0pt 0pt 12pt 0pt;font-style:normal;color:red;font-weight:600;font-size:12pt;font-family:"Times New Roman";font-variant:normal;line-height:1.0;}.aOAD{width:100%;text-align:right;text-indent:0px;margin:0pt 0pt 12pt 0pt;font-style:italic;color:#808080;font-weight:400;font-size:10pt;font-family:"Times New Roman";font-variant:normal;line-height:1.0;}.signCont{text-align:center;margin:0pt 0pt 12pt 0px;text-indent:0pt;}.mrkup{background-color:#00008B!important;color:#FFFFFF!important;}.mrkupNav{color:#00008B!important;}.mrkupNav SPAN{font:12px Webdings!important;padding:0px 2px!important;}.iorRN{font-weight:600;}.iorVal{text-indent:0px;margin-left:1px;}.clausePrfx{display:inline;float:left;}.clauseSuff{display:block;width:100%;text-indent:0px;}@media print{.clausePrfx{float:none;}.clauseSuff{display:inline;width:auto;}}.ACCEPTING_BODY{text-align:center; text-indent:0; margin:0 0 0 0; font-style:normal; color:#000080; font-weight:normal; font-size:12pt; font-family:"Times New Roman";font-variant:normal; line-height:normal;text-transform:uppercase;}.ACT_ESSENTIAL_ELEMENTS{text-align:center; text-indent:0; margin:0 70% 0 0; font-style:normal; color:#000000; font-weight:normal; font-size:11pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.ACT_ESSENTIAL_ELEMENTS_NUM{text-align:center; text-indent:0; margin:0 70% 0 0; font-style:normal; color:#000000; font-weight:normal; font-size:11pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;padding-bottom: 20px;}.ACT_FORM{text-align:center; text-indent:0; margin:0; font-style:normal; color:#000080; font-weight:normal; font-size:12pt; font-family:"Times New Roman"; text-transform:uppercase; font-variant:normal; line-height:normal;}.ACT_FORM_LAW{text-align:center; text-indent:0; margin:0 0 12pt 0; font-style:normal; color:#000080; font-weight:normal; font-size:12pt; font-family:"Times New Roman"; text-transform:uppercase; font-variant:normal; line-height:normal;}.ACT_TEXT{text-align:justify;text-justify:inter-word; text-indent:15mm; margin:0; font-style:normal; color:#000000; font-weight:normal; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:1.3;}.ACT_TITLE{text-align:center; text-indent:0; margin:12pt 0 6pt 0; font-style:normal; color:#000080; font-weight:bold; font-size:12pt; font-family:"Times New Roman"; text-transform:uppercase; font-variant:normal; line-height:normal;}.ACT_TITLE_APPL{text-align:center; text-indent:0; margin:0 0 6pt 0; font-style:normal; color:#000080; font-weight:bold; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.APPL_BANNER_LANDSCAPE_TEXT{text-align:center; text-indent:0pt; margin:0pt 0pt 10pt 66%; font-style:normal; color:#000080; font-weight:normal; font-size:11pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.APPL_BANNER_LANDSCAPE_TITLE{text-align:center; text-indent:0pt; margin:10pt 0pt 12pt 66%; font-style:normal; color:#000080; font-weight:normal; font-size:11pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.APPL_BANNER_PORTRAIT_TEXT{text-align:center; text-indent:0pt; margin:0pt 0pt 0pt 50%; font-style:normal; color:#000080; font-weight:normal; font-size:11pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.APPL_BANNER_PORTRAIT_TITLE{text-align:center; text-indent:0pt; margin:0pt 0pt 12pt 50%; font-style:normal; color:#000080; font-weight:normal; font-size:11pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.BY_DEFAULT{text-align:justify;text-justify:inter-word; text-indent:0; margin:0; font-style:normal; color:#000000; font-weight:normal; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:1.3;}.CHANGES_ORIGINS{text-align:justify;text-justify:inter-word; text-indent:15mm; margin:0; font-style:italic; color:#800000; font-weight:normal; font-size:11pt; font-family:"Times New Roman"; font-variant:normal; line-height:1.3;}.CLAUSE_AFTER_SRC{text-align:justify;text-justify:inter-word; text-indent:0; margin:0 0 3pt 0; font-style:normal; color:#000080; font-weight:boldl; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.CLAUSE_DEFAULT{text-align:justify;text-justify:inter-word; text-indent:15mm; margin:6pt 0 3pt 0; font-style:normal; color:#000080; font-weight:bold; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.COMMENT{text-align:justify;text-justify:inter-word; text-indent:15mm; margin:3pt 0 3pt 0; font-style:italic; color:#800080; font-weight:normal; font-size:11pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.COMMENT_FOR_WARNING{text-align:justify;text-justify:inter-word; text-indent:15mm; margin:3pt 0 3pt 0; font-style:italic; color:#800080; font-weight:normal; font-size:11pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.DEPARTMENTAL{text-align:center; text-indent:0; margin:0 0 6pt 0; font-style:normal; color:#000000; font-weight:bold; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.EXPLANATION{text-align:justify;text-justify:inter-word; text-indent:15mm; margin:3pt 0 3pt 0; font-style:normal; color:#993366; font-weight:normal; font-size:11pt; font-family:"Times New Roman"; line-height:normal;}.EXTRACT{text-align:center; text-indent:0; margin:0 0 6pt 0; font-style:normal; color:#000000; font-weight:bold; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.FOOTNOTE{text-align:justify;text-justify:inter-word; text-indent:15mm; margin:0; font-style:normal; color:#339966; font-weight:normal; font-size:10pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.GRIF_PARLAMENT{text-align: left; text-indent:0 mm; margin:0 0 3pt 50%; font-style:normal; color:#000080; font-weight:normal; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.INDEXES_ON_REF{text-align:left;text-indent:0cm;margin:3pt 0.9cm 3pt 0.95cm;font-style:normal;color:#008000;font-weight:normal;font-size:11pt;font-family:"Times New Roman"; font-variant:normal;line-height:1.0;}.IS_TABLE_FOR_LIST_TEMP{text-align:justify;text-justify:inter-word; text-indent:15mm; margin:0; font-style:normal; color:#000000; font-weight:normal; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:1.3;}.NEW_EDITION{text-align:center; text-indent:0; margin:0 0 6pt 0; font-style:normal; color:#000080; font-weight:normal; font-size:12pt; font-family:"Times New Roman"; text-transform:lowercase; font-variant:normal; line-height:normal;}.OFFICIAL_SOUR_TEXT{text-align:right; font-size:8pt; font-family:Arial, Helvetica, sans-serif; border: 1px solid #A9DBFC; background-color: #E6EDFF;}.PUBLICATION_ORIGIN{text-align:center; text-indent:0; margin:0 0 12pt 0; font-style:italic; color:#800000; font-weight:normal; font-size:11pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.SIGNATURE{text-align:right; text-indent:0; margin:6pt 0 6pt 0; font-style:normal; color:#000000; font-weight:bold; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.SIGNATURE_STAMPS_PLACEHOLDER{text-align:justify; text-justify:inter-word; text-indent:0; margin:4 10; vertical-align:text-top; flow:left;}.SIGNATURE_STAMP_TEXT{text-align:center; text-indent:0; margin:0; font-style:normal; color:#000080; font-weight:normal; font-size:11pt; font-family:"Times New Roman"; font-variant:normal; vertical-align:baseline!important;}.SIGNATURE_WITH_BOLD{text-align:right; text-indent:0; margin:6pt 0 6pt 0; font-style:normal; color:#000000; font-weight:normal; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.TABLE_STD{background:#ffffff;color:#000000;margin:4pt;font-size:12pt;width:100%;height:100%;overflow:visible;}.TEXT_15_LEFT{text-align: left; text-indent:30 mm; margin:0 0 3pt 0; font-style:normal; color:#000080; font-weight:normal; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.TEXT_30_LEFT{text-align: left; text-indent:45 mm; margin:0 0 3pt 0; font-style:normal; color:#000080; font-weight:normal; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.TEXT_BOLD{text-align:justify;  text-indent:0; margin:6pt 0 3pt 0; font-style:normal; color:#000080; font-weight:bold; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;text-indent:15mm;}.TEXT_BOLD_CENTER{text-align:center; text-indent:0; margin:6pt 0 3pt 0; font-style:normal; color:#000080; font-weight:bold; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.TEXT_BOLD_RIGHT{text-align:right; text-indent:0; margin:0 0 3pt 0; font-style:normal; color:#000000; font-weight:bold; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.TEXT_CENTER{text-align:center; text-indent:0; margin:0 0 3pt 0; font-style:normal; color:#000080; font-weight:normal; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.TEXT_HEADER_AFTER_SRC{text-align:center; text-indent:0; margin:0 0 3pt 0; font-style:normal; color:#000080; font-weight:bold; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.TEXT_HEADER_DEFAULT{text-align:center; text-indent:0; margin:6pt 0 3pt 0; font-style:normal; color:#000080; font-weight:bold; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}.TEXT_ITALIC{text-align:justify; text-indent:0; margin:0; font-style:italic; color:#000080; font-weight:italic; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal; text-indent:15mm}.TEXT_RIGHT{text-align: right; text-indent:0; margin:0 0 3pt 0; font-style:normal; color:#000080; font-weight:normal; font-size:12pt; font-family:"Times New Roman"; font-variant:normal; line-height:normal;}DIV#theSysCssID TABLE{background-color:ivory;color:#000000;border-collapse:separate;font:x-small Tahoma;table-layout:auto;position:relative;margin:0pt;top:0pt;zoom:normal;z-index:auto;}DIV#theSysCssID TABLE TD,TH{border:1px solid #000000;cursor:auto;min-height:8pt;padding:1px 1px 1px 2px;vertical-align:top;white-space:normal;word-wrap:break-word;visibility:visible!important;}DIV#theNormCssID TABLE{background-color:#f5f5f5;color:red;border:1px solid red;font:small Verdana;position:relative;margin:0pt;top:0pt;zoom:normal;z-index:auto;}DIV#theNormCssID TABLE TD,TH{border:1px solid red;cursor:auto;min-height:8pt;padding:2px 2px 2px 3px;vertical-align:top;white-space:normal;word-wrap:normal;visibility:visible!important;}DIV#theDefCssID TABLE{background-color:#ffffff;color:#000000;border:1px solid #000000;border-collapse:collapse;font:normal normal normal small/normal Times New Roman;table-layout:fixed;text-align:left;text-decoration:none;text-indent:0;text-transform:none;width:100%;word-spacing:normal;position:relative;margin:0pt;top:0pt;zoom:normal;z-index:auto;}DIV#theDefCssID TABLE TD,TH{background-color:#ffffff;color:#000000;border:1px solid #000000;cursor:auto!important;font:normal normal normal small/normal Times New Roman;min-height:8pt;padding:1px 1px 1px 2px;text-align:left;text-decoration:none;text-indent:0;text-transform:none;vertical-align:top;white-space:normal;word-wrap:break-word;word-spacing:normal;visibility:visible!important;}DIV#theNotCssID TABLE{position:relative;margin:0pt;top:0pt;zoom:normal;z-index:auto;}DIV#theNotCssID TABLE TD,TH,CAPTION{visibility:visible!important;}A#tabBoxDisable TABLE TD,TH{color:#808080;border-color:#808080;}.tabBox{display:inline-block;} .OFFICIAL_SOUR_TEXT{display:none;}</style>
+</head>
+<body lang='uz-Latn-UZ'><div class=WordSection1>
+﻿<div id="divCont" style="background:#ffffff;border:none;margin:auto;"><div class="ACCEPTING_BODY"><div name="-4090453" id="-4090453">Oʻzbekiston Respublikasi Vazirlar Mahkamasining</div></div><div class="ACT_FORM"><div name="-4090454" id="-4090454">qarori</div></div><div class="BY_DEFAULT"><div name="-6101742" id="-6101742"></div></div><div class="ACT_TITLE"><div name="-6101743" id="-6101743">Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyi faoliyatini tashkil etish chora-tadbirlari toʻgʻrisida</div></div><div class="BY_DEFAULT"><div name="-4090457" id="-4090457"></div></div><div class="BY_DEFAULT"><div name="-6101746" id="-6101746"></div></div><div class="ACT_TEXT"><div name="-6101747" id="-6101747">Oʻzbekiston Respublikasining “Taʼlim toʻgʻrisida”gi <a href="https://lex.uz/uz/docs/-5013007">Qonuniga</a> va Oʻzbekiston Respublikasi Prezidentining “Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyini tashkil etish toʻgʻrisida” 2022-yil 16-fevraldagi PQ-129-son <a href="https://lex.uz/uz/docs/-5861465">qaroriga</a> muvofiq Oʻzbekiston Respublikasi Milliy gvardiyasida kadrlarni tayyorlashning uzluksiz tizimini takomillashtirish, Oʻzbekiston Respublikasi Qurolli Kuchlari tarkibidagi harbiy orkestr jamoalari, shuningdek, boshqa orkestr va badiiy jamoalar uchun damli va zarbli cholgʻular ijrochiligi yoʻnalishida kadrlarni maqsadli tayyorlash tizimini samarali tashkil etish maqsadida Vazirlar Mahkamasi qaror qiladi:</div></div><div class="ACT_TEXT"><div name="-4090477" id="-4090477">3. Belgilansinki:</div></div><div class="ACT_TEXT"><div name="-4090479" id="-4090479">a) akademik litseyda:</div></div><div class="ACT_TEXT"><div name="-4090482" id="-4090482">“Damli va zarbli cholgʻular ijrochiligi” taʼlim yoʻnalishi boʻyicha taʼlim beriladi; </div></div><div class="ACT_TEXT"><div name="-4090485" id="-4090485">musiqa taʼlimi va oʻquv jarayonining uzluksizligini taʼminlash maqsadida istisno tariqasida, mavjud umumiy oʻrta taʼlim sinflari saqlab qolinadi;</div></div><div class="ACT_TEXT"><div name="-4090489" id="-4090489">oʻqitish umumiy oʻrta hamda oʻrta maxsus taʼlimning davlat taʼlim standartlarining oʻquv rejalari va dasturlari asosida amalga oshiriladi;</div></div><div class="ACT_TEXT"><div name="-4090492" id="-4090492">har yilgi qabul kvotasi umumiy oʻrta taʼlim muassasalarining 4-sinfini bitirgan 78 nafar oʻquvchini tashkil etadi;</div></div><div class="ACT_TEXT"><div name="-4090690" id="-4090690">b) akademik litsey faoliyatiga rahbarlik qilish va nazoratni tashkil etish, moliyalashtirish hamda uning moddiy-texnika bazasini mustahkamlash Oʻzbekiston Respublikasi Milliy gvardiyasi tomonidan Oʻzbekiston Respublikasi Davlat budjeti mablagʻlari hisobiga amalga oshiriladi; </div></div><div class="ACT_TEXT"><div name="-4090691" id="-4090691">v) oʻquv-tarbiya jarayoni samaradorligini oshirishga metodik yordam koʻrsatish, darsliklar va oʻquv-metodik adabiyotlar, multimedia ilovalari, sinf jurnallari, oʻquvchilarning reyting daftarchalari va boshqa hujjatlar bilan taʼminlash, shuningdek, pedagog kadrlar malakasini oshirishni tashkil etish Oʻzbekiston Respublikasi Oliy va oʻrta maxsus taʼlim vazirligi, Xalq taʼlimi vazirligi hamda Madaniyat vazirligi tomonidan amalga oshiriladi;</div></div><div class="ACT_TEXT"><div name="-4090692" id="-4090692">g) akademik litseyni saqlash xarajatlari Oʻzbekiston Respublikasi Davlat budjeti mablagʻlari va qonun hujjatlarida taqiqlanmagan boshqa manbalar hisobiga amalga oshiriladi. </div></div><div class="BY_DEFAULT"><div name="-6101759" id="-6101759"></div></div><div class="ACT_TEXT"><div name="-6101760" id="-6101760">4. Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyiga oʻquvchilarni tanlab olish, oʻqishga qabul qilish va oʻqishdan chetlatish tartibi toʻgʻrisida nizom <a href="https://lex.uz/uz/docs/-4086981#-4090705">ilovaga </a>muvofiq tasdiqlansin. </div></div><div class="ACT_TEXT"><div name="-4090694" id="-4090694">5. Vazirlar Mahkamasining “Respublika ixtisoslashtirilgan muzika va sanʼat akademik litseyini tashkil etish toʻgʻrisida” 2011-yil 16-dekabrdagi 335-son <a href="https://lex.uz/uz/docs/-1918055">qarori </a>(Oʻzbekiston Respublikasi QHT, 2011-y., 51-son, 543-modda) oʻz kuchini yoʻqotgan deb hisoblansin. </div></div><div class="ACT_TEXT"><div name="-4090696" id="-4090696">7. Oʻzbekiston Respublikasi Milliy gvardiyasi ikki oy muddatda:</div></div><div class="ACT_TEXT"><div name="-4090697" id="-4090697">akademik litseyning ustavini tasdiqlasin hamda uning belgilangan tartibda davlat roʻyxatidan oʻtkazilishini taʼminlasin;</div></div><div class="ACT_TEXT"><div name="-4090698" id="-4090698">akademik litseyga ajratilgan mablagʻlar va amaldagi xodimlar soni doirasida xarajatlar smetasini hamda shtat jadvallarini qayta koʻrib chiqsin va belgilangan tartibda tasdiqlasin; </div></div><div class="ACT_TEXT"><div name="-4090699" id="-4090699">manfaatdor vazirliklar va idoralar bilan birgalikda oʻzlari qabul qilgan normativ-huquqiy hujjatlarni ushbu qarorga muvofiqlashtirsin.</div></div><div class="ACT_TEXT"><div name="-4090700" id="-4090700">8. Mazkur qarorning bajarilishini nazorat qilish Oʻzbekiston Respublikasi Bosh vazirining oʻrinbosari A.A. Abduxakimov hamda Oʻzbekiston Respublikasi Milliy gvardiyasi qoʻmondoni B.X. Tashmatov zimmasiga yuklansin.</div></div><div class="SIGNATURE"><div name="-4090701" id="-4090701">Oʻzbekiston Respublikasining Bosh vaziri A. ARIPOV</div></div><div class="ACT_ESSENTIAL_ELEMENTS"><div name="-4090702" id="-4090702">Toshkent sh.,</div></div><div class="ACT_ESSENTIAL_ELEMENTS"><div name="-4090703" id="-4090703">2018-yil 29-noyabr,</div></div><div class="ACT_ESSENTIAL_ELEMENTS_NUM"><div name="-4090704" id="-4090704">971-son</div></div><div class="BY_DEFAULT"><div name="-4090705" id="-4090705"></div></div><div class="APPL_BANNER_LANDSCAPE_TITLE"><div name="-4090706" id="-4090706">Vazirlar Mahkamasining 2018-yil 29-noyabrdagi 971-son <a href="https://lex.uz/uz/docs/-4086981">qaroriga </a><br />ILOVA </div></div><div class="BY_DEFAULT"><div name="-4090707" id="-4090707"></div></div><div class="BY_DEFAULT"><div name="-6101764" id="-6101764"></div></div><div class="ACT_TITLE_APPL"><div name="-6101765" id="-6101765">Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyiga oʻquvchilarni tanlab olish, oʻqishga qabul qilish va oʻqishdan chetlatish tartibi toʻgʻrisida </div></div><div class="ACT_FORM"><div name="-8003251" id="-8003251">NIZOM</div></div><div class="BY_DEFAULT"><div name="-4090709" id="-4090709"></div></div><div class="TEXT_HEADER_DEFAULT"><div name="-4090711" id="-4090711">1-bob. Umumiy qoidalar</div></div><div class="BY_DEFAULT"><div name="-6101767" id="-6101767"></div></div><div class="ACT_TEXT"><div name="-6101768" id="-6101768">1. Mazkur Nizom Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyining (keyingi oʻrinlarda akademik litsey deb ataladi) 5-sinfiga umumiy oʻrta taʼlim muassasalarining 4-sinfini bitirgan oʻquvchilarni (keyingi oʻrinlarda nomzod deb ataladi) tanlab olish, oʻqishga qabul qilish va oʻqishdan chetlatish tartibini belgilaydi.</div></div><div class="ACT_TEXT"><div name="-4090713" id="-4090713">2. Nomzodning bilim saviyasi, kasbiy (ijodiy) va intellektual qobiliyati, dunyoqarashi va psixologik jihatlarini aniqlash tanlab olishning asosiy maqsadi hisoblanadi.</div></div><div class="ACT_TEXT"><div name="-4090714" id="-4090714">3. Tanlab olishdan muvaffaqiyatli oʻtgan nomzodlar akademik litseyga belgilangan kvota doirasida qabul qilinadi.</div></div><div class="ACT_TEXT"><div name="-4090715" id="-4090715">4. Nomzodlarning hujjatlarini qabul qilish, shaxsiy hujjatlari yigʻma jildi bilan ishlash, kirish imtihonlarini oʻtkazish, zarur materiallar va hisobotlarni tayyorlash, ota-onalar murojaatlarini koʻrib chiqish va boshqa tashkiliy ishlarni bajarish uchun litseyda qabul komissiyasi tuziladi. </div></div><div class="ACT_TEXT"><div name="-4090716" id="-4090716">5. Qabul komissiyasi tarkibi har yili 25-aprelgacha Oʻzbekiston Respublikasi Milliy gvardiyasi qoʻmondonining buyrugʻi bilan tasdiqlanadi.</div></div><div class="BY_DEFAULT"><div name="-5593573" id="-5593573"></div></div><div class="ACT_TEXT"><div name="-5593577" id="-5593577">Qabul komissiyasi tarkibi 7 nafardan kam boʻlmagan toq sonda tashkil etilib, uning tarkibiga Oʻzbekiston Respublikasi Jamoat xavfsizligi universiteti (keyingi oʻrinlarda — Jamoat xavfsizligi universiteti) vakillari, akademik litsey rahbar va pedagog xodimlari kiritilishi mumkin. Akademik litsey direktori qabul komissiyasi raisi hisoblanadi. </div></div><div class="ACT_TEXT"><div name="-4090718" id="-4090718">6. Akademik litseyga nomzodlarni tanlab olish va oʻqishga qabul qilish teng huquqlilik va odillik tamoyillari asosida, mazkur Nizomning <a href="https://lex.uz/uz/docs/-4086981#-4091221">1-ilovasidagi </a>sxemaga muvofiq amalga oshiriladi. </div></div><div class="ACT_TEXT"><div name="-4090719" id="-4090719">Ota-onalar yoki ularning oʻrnini bosuvchi shaxslar nomzodlarni tanlab olish jarayonida kuzatuvchi sifatida qatnashishi mumkin. </div></div><div class="TEXT_HEADER_DEFAULT"><div name="-4090774" id="-4090774">2-bob. Nomzodlardan hujjatlarni qabul qilish</div></div><div class="ACT_TEXT"><div name="-4090775" id="-4090775">7. Akademik litsey rahbariyati tanlab olishni sifatli va oshkora oʻtkazish maqsadida har yili 1-aprelga qadar, ommaviy axborot vositalari orqali akademik litseyga nomzodlar tanlab olinishi haqida tashviqot tadbirlarini tashkil etadilar.</div></div><div class="ACT_TEXT"><div name="-4090777" id="-4090777">8. Qabul komissiyasi nomzodlarning hujjatlarini 1 — 20-iyun kunlari qabul qiladi. </div></div><div class="BY_DEFAULT"><div name="-8002025" id="-8002025"></div></div><div class="ACT_TEXT"><div name="-8002028" id="-8002028">9. Tanlab olishda qatnashish uchun quyidagi hujjatlar taqdim etilishi talab etiladi:</div></div><div class="ACT_TEXT"><div name="-8002029" id="-8002029">nomzodning ota-onasi (ularning oʻrnini bosuvchi shaxslar) tomonidan akademik litsey direktori nomiga mazkur Nizomga 2-ilovaga muvofiq shakldagi ariza;</div></div><div class="ACT_TEXT"><div name="-8002031" id="-8002031">nomzodning ota-onasi (ularning oʻrnini bosuvchi shaxslar) tomonidan mazkur Nizomga 3-ilovaga muvofiq shaklda toʻldirilgan soʻrovnoma;</div></div><div class="ACT_TEXT"><div name="-8002032" id="-8002032">086-U shakl boʻyicha tibbiy maʼlumotnoma;</div></div><div class="ACT_TEXT"><div name="-8002033" id="-8002033">6 dona 3x4 sm oʻlchamli rangli fotosurat;</div></div><div class="ACT_TEXT"><div name="-8002034" id="-8002034">nomzodning oʻqish joyidan baholar tabelining nusxasi;</div></div><div class="ACT_TEXT"><div name="-8002035" id="-8002035">Oʻzbekiston Respublikasi ichki ishlar vazirining taqdimnomasi.</div></div><div class="ACT_TEXT"><div name="-8002036" id="-8002036">Nomzodning tugʻilganlik haqidagi guvohnomasi nusxasi, tibbiy daftarchasi (063 shakl) va nomzodning ota-onasining (ularning oʻrnini bosuvchi shaxslarning) pasportlari (identifikatsiyalovchi ID-kartasi) nusxalari “Raqamli hukumat” tizimining idoralararo integratsiyalashuv platformasi orqali qabul komissiyasi tomonidan mustaqil ravishda olinadi.</div></div><div class="ACT_TEXT"><div name="-4090797" id="-4090797">10. Kirish imtihonlari 20 — 30-iyun kunlari oʻtkaziladi.</div></div><div class="ACT_TEXT"><div name="-4090798" id="-4090798">11. Qabul komissiyasi faoliyati davomida murojaat etuvchi fuqarolarga maslahatlar berib boradi.</div></div><div class="TEXT_HEADER_DEFAULT"><div name="-4090799" id="-4090799">3-bob. Akademik litseyga nomzodlarni tanlab olish va oʻqishga qabul qilish </div></div><div class="ACT_TEXT"><div name="-4090800" id="-4090800">12. Akademik litseyga nomzodlar kirish imtihonlarini oʻtkazish orqali tanlab olinadi.</div></div><div class="BY_DEFAULT"><div name="-5593586" id="-5593586"></div></div><div class="ACT_TEXT"><div name="-5593592" id="-5593592">13. Kirish imtihonlarini oʻtkazish uchun materiallar akademik litsey hamda Jamoat xavfsizligi universitetining yetakchi pedagog va psixologlari tomonidan umumiy oʻrta taʼlimning davlat taʼlim standartlariga muvofiq ishlab chiqilib, qabul komissiyasi raisi tomonidan tasdiqlanadi.</div></div><div class="ACT_TEXT"><div name="-4090802" id="-4090802">14. Kirish imtihonlari davlat, rus va qoraqalpoq tillarida qabul komissiyasi raisi tomonidan tasdiqlangan jadvalga muvofiq belgilangan muddatlarda oʻtkaziladi.</div></div><div class="ACT_TEXT"><div name="-4090803" id="-4090803">15. Nomzodlar bilan quyidagi kirish imtihonlari oʻtkaziladi:</div></div><div class="ACT_TEXT"><div name="-4090804" id="-4090804">ona tili (diktant);</div></div><div class="ACT_TEXT"><div name="-4090805" id="-4090805">matematika (nazorat ishi);</div></div><div class="ACT_TEXT"><div name="-4090806" id="-4090806">oʻqish;</div></div><div class="ACT_TEXT"><div name="-4090807" id="-4090807">psixologik sinov (test);</div></div><div class="ACT_TEXT"><div name="-4090808" id="-4090808">ijodiy imtihon (musiqa).</div></div><div class="ACT_TEXT"><div name="-4090809" id="-4090809">16. Kirish imtihonlariga quyidagi talablar qoʻyiladi:</div></div><div class="ACT_TEXT"><div name="-4090810" id="-4090810">ona tili boʻyicha diktant matnining hajmi 110 — 120 soʻzdan iborat boʻladi, diktantni yozish uchun 45 daqiqa vaqt ajratiladi;</div></div><div class="ACT_TEXT"><div name="-4090811" id="-4090811">matematika boʻyicha nazorat ishini oʻtkazish uchun nomzodlarga 4 ta topshiriq (2 ta misol va 2 ta vazifa) beriladi, ularni yechish uchun 45 daqiqa vaqt ajratiladi;</div></div><div class="ACT_TEXT"><div name="-4090813" id="-4090813">oʻqish boʻyicha imtihonni oʻtkazish uchun nomzodga matn taqdim etiladi, oʻqish tezligi bir daqiqaga 70 soʻzdan kam boʻlmasligi kerak;</div></div><div class="ACT_TEXT"><div name="-4090814" id="-4090814">psixologik sinov uchun nomzodlarga 20 ta test savollari beriladi, ularni yechish uchun 45 daqiqa vaqt ajratiladi.</div></div><div class="ACT_TEXT"><div name="-4090815" id="-4090815">Ijodiy imtihonni oʻtkazish davomida nomzodning ijro etish usuli, xotira, eshitish qobiliyati va mustaqil tayyorlangan chiqishi baholanadi. Ijodiy imtihonni oʻtkazish uchun har bir nomzodga 15 — 20 daqiqa vaqt ajratiladi.</div></div><div class="ACT_TEXT"><div name="-4090817" id="-4090817">17. Nomzodlarga ijodiy sinovlar oʻtkaziladigan binoga oʻzi bilan musiqa asbobi, ijodiy ishni bajarish uchun zarur anjom olib kirishlariga ruxsat etiladi. </div></div><div class="ACT_TEXT"><div name="-4090818" id="-4090818">18. Nomzodlar barcha sinovlarning umumiy natijasi ketma-ketligi boʻyicha belgilangan kvotaga muvofiq oʻqishga qabul qilinadi.</div></div><div class="BY_DEFAULT"><div name="-4399409" id="-4399409"></div></div><div class="ACT_TEXT"><div name="-4399411" id="-4399411">Terrorizm va jinoyatchilikka qarshi kurashish hamda jamoat xavfsizligini taʼminlash chogʻida halok boʻlgan yoki olgan jarohati tufayli nogiron boʻlib qolgan ichki ishlar organlari xodimlarining farzandlari Oʻzbekiston Respublikasi ichki ishlar vazirining taqdimnomasi asosida belgilangan qabul kvotalaridan tashqari kirish imtihonlarisiz qabul qilinadilar. </div></div><div class="ACT_TEXT"><div name="-4399413" id="-4399413">Ichki ishlar organlari xodimlarining farzandlarini ajratilgan besh foizli kvotalar doirasida akademik litseyga qabul qilish Oʻzbekiston Respublikasi ichki ishlar vazirining taqdimnomasi boʻyicha tanlov asosida amalga oshiriladi hamda oʻrinlar barcha sinovlarning umumiy natijalari boʻyicha toʻplangan ballardan kelib chiqib, nomzod kirish imtihonlarining eng yuqori ballidan kamida oʻttiz foizini toʻplagan taqdirda ketma-ketlik tartibida taqsimlanadi. </div></div><div class="ACT_TEXT"><div name="-4399415" id="-4399415">Ajratilgan besh foizli qoʻshimcha qabul kvotalariga qabul qilinmagan nomzodlar toʻplagan ballari bilan umumiy tartibda tanlovda ishtirok etadilar.</div></div><div class="ACT_TEXT"><div name="-4090820" id="-4090820">19. Bir nechta nomzodlarning oʻtish reyting ballari teng boʻlgan holatlarda, ular akademik litseyga belgilangan kvotadan tashqari qabul qilinadi.</div></div><div class="BY_DEFAULT"><div name="-6101770" id="-6101770"></div></div><div class="ACT_TEXT"><div name="-6101771" id="-6101771">20. Kirish imtihonlari 100 ballik tizimda mazkur Nizomning <a href="https://lex.uz/uz/docs/-4086981#-4092142">4-ilovasidagi </a>Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyga kirish uchun imtihonlarni umumiy baholash mezonlariga muvofiq baholanadi. </div></div><div class="ACT_TEXT"><div name="-4090823" id="-4090823">21. Imtihonlarga kelmagan nomzodlar bilan takroriy imtihonlar oʻtkazilmaydi.</div></div><div class="ACT_TEXT"><div name="-4090824" id="-4090824">22. Oʻtkazilgan imtihonlar natijalariga muvofiq tegishli qaydnomalar, yigʻilish bayonnomasi, qabul qilingan oʻquvchilarning roʻyxatlari rasmiylashtiriladi, ular qabul komissiyasi raisi va aʼzolari tomonidan imzolanadi va akademik litsey muhri bilan tasdiqlanadi. </div></div><div class="ACT_TEXT"><div name="-4090882" id="-4090882">23. Akademik litsey direktori 3-iyulga qadar Qabul komissiyasi yigʻilishining bayonnomasi asosida nomzodlarni akademik litseyga oʻquvchilar safiga qabul qilish toʻgʻrisida buyruq chiqaradi.</div></div><div class="ACT_TEXT"><div name="-4090883" id="-4090883">24. Kirish imtihonlarining yakuniy natijalari akademik litsey qabul komissiyasi tomonidan 5-iyulgacha eʼlon qilinadi.</div></div><div class="ACT_TEXT"><div name="-4090885" id="-4090885">25. Kirish imtihonlari natijasidan norozi boʻlgan nomzodlarning ota-onalari (ularning oʻrnini bosuvchi shaxslar) akademik litsey direktori buyrugʻi bilan tuziladigan apellyatsiya komissiyasiga (keyingi oʻrinlarda apellyatsiya komissiyasi deb ataladi) natija eʼlon qilingan kundan boshlab 3 kun davomida apellyatsiya berish huquqiga ega.</div></div><div class="ACT_TEXT"><div name="-4090886" id="-4090886">Apellyatsiya 3 kun ichida koʻrib chiqilishi lozim.</div></div><div class="ACT_TEXT"><div name="-4090888" id="-4090888">26. Apellyatsiya komissiyasi tarkibiga qabul komissiyasi faoliyatida ishtirok etmagan akademik litsey xodimlari orasidan komissiya raisi va toʻrt nafar aʼzo kiritiladi.</div></div><div class="ACT_TEXT"><div name="-4090891" id="-4090891">27. Nomzodning apellyatsiyasini koʻrib chiqishda nomzod va uning ota-onasi (ularning oʻrnini bosuvchi shaxslar) ishtirok etishi mumkin.</div></div><div class="ACT_TEXT"><div name="-4090895" id="-4090895">28. Apellyatsiya komissiyasi nomzodning apellyatsiyasini koʻrib chiqib, uning natijasi boʻyicha tegishli qaror qabul qiladi.</div></div><div class="ACT_TEXT"><div name="-4090896" id="-4090896">29. Apellyatsiya komissiyasi tegishli qarorni qabul komissiyasiga va nomzodga yetkazilishini taʼminlaydi.</div></div><div class="TEXT_HEADER_DEFAULT"><div name="-4091195" id="-4091195">4-bob. Oʻquvchilarni oʻqishdan chetlatish </div></div><div class="BY_DEFAULT"><div name="-4091196" id="-4091196"></div></div><div class="ACT_TEXT"><div name="-6101774" id="-6101774">30. Oʻquvchilarni Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyidan chetlatish mazkur Nizomning <a href="https://lex.uz/uz/docs/-4086981#-4092230">5-ilovasidagi </a>sxemaga muvofiq amalga oshiriladi. </div></div><div class="ACT_TEXT"><div name="-4091198" id="-4091198">31. Oʻquvchi akademik litseydan quyidagi sabablarga koʻra chetlatiladi:</div></div><div class="ACT_TEXT"><div name="-4091199" id="-4091199">sogʻligʻi tufayli (tibbiy komissiyaning xulosasi asosida);</div></div><div class="ACT_TEXT"><div name="-4091200" id="-4091200">oʻquvchining ota-onasi (ularning oʻrnini bosuvchi shaxslar) tashabbusiga koʻra;</div></div><div class="ACT_TEXT"><div name="-4091204" id="-4091204">fanlarni oʻzlashtirmaslik, birinchi yoki ikkinchi yarim yillikda (76 soat) uzrli sabablarsiz dars mashgʻulotlarida qatnashmaslik;</div></div><div class="ACT_TEXT"><div name="-4091205" id="-4091205">akademik litsey ustavida belgilangan ichki tartib qoidalarini qoʻpol ravishda buzish.</div></div><div class="ACT_TEXT"><div name="-4091207" id="-4091207">32. Oʻquvchilar akademik litseydan akademik litsey Pedagogik kengashining qaroriga muvofiq akademik litsey direktorining buyrugʻi bilan chetlatiladi.</div></div><div class="ACT_TEXT"><div name="-4091211" id="-4091211">33. Akademik litsey Pedagogik kengashi qarori asosida oʻqishdan chetlatilgan oʻquvchilar avval oʻqigan maktabiga, oʻquvchining yashash joyi oʻzgargan taqdirda esa, mazkur hududdagi boshqa maktabga qaytarib yuboriladi. </div></div><div class="BY_DEFAULT"><div name="-6596737" id="-6596737"></div></div><div class="ACT_TEXT"><div name="-6596740" id="-6596740">34. Uzrli sabablarsiz dars mashgʻulotlarida qatnashmaganligi va akademik litsey ustavida belgilangan ichki tartib qoidalarini qoʻpol ravishda buzganligi uchun oʻqishdan chetlatilgan oʻquvchilar toʻgʻrisidagi maʼlumot ularni oʻqishdan chetlatish toʻgʻrisida buyruq chiqqan kundan boshlab bir hafta muddatda tegishli tuman (shahar) hokimliklarining bolalarni himoya qilish shuʼbalariga taqdim etiladi.</div></div><div class="TEXT_HEADER_DEFAULT"><div name="-4091215" id="-4091215">5-bob. Yakunlovchi qoidalar</div></div><div class="ACT_TEXT"><div name="-4091217" id="-4091217">35. Mazkur Nizomni qoʻllash bilan bogʻliq yuzaga keladigan kelishmovchiliklar qonun hujjatlariga muvofiq hal etiladi.</div></div><div class="ACT_TEXT"><div name="-4091218" id="-4091218">36. Ushbu Nizom talablari buzilishida aybdor boʻlgan shaxslar qonun hujjatlarida belgilangan tartibda javob beradilar. </div></div><div class="BY_DEFAULT"><div name="-4091221" id="-4091221"></div></div><div class="BY_DEFAULT"><div name="-6101777" id="-6101777"></div></div><div class="APPL_BANNER_LANDSCAPE_TITLE"><div name="-6101778" id="-6101778">Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyiga oʻquvchilarni tanlab olish, oʻqishga qabul qilish va oʻqishdan chetlatish tartibi toʻgʻrisida <a href="https://lex.uz/uz/docs/-4086981#-4090707">nizomga </a><br />1-ILOVA </div></div><div class="ACT_TITLE_APPL"><div name="-6101779" id="-6101779">Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyiga nomzodlarni tanlab olish va oʻqishga qabul qilish </div></div><div class="ACT_FORM"><div name="-6101780" id="-6101780">SXEMASI</div></div><div class="BY_DEFAULT"><div name="-4091226" id="-4091226"></div></div><div class="TEXT_CENTER"><div name="-4091454" id="-4091454"><img src="https://lex.uz/uz/files/4091444" /></div></div><div class="BY_DEFAULT"><div name="-6102233" id="-6102233"></div></div><div class="APPL_BANNER_LANDSCAPE_TITLE"><div name="-6102234" id="-6102234">Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyiga oʻquvchilarni tanlab olish, oʻqishga qabul qilish va oʻqishdan chetlatish tartibi toʻgʻrisida <a href="https://lex.uz/uz/docs/-4086981#-4090707">nizomga </a><br />2-ILOVA </div></div><div class="BY_DEFAULT"><div name="-6102235" id="-6102235"></div></div><div class="TABLE_STD" id="theDefCssID"><div name="-6102236" id="-6102236" class="tabBox"><table id="theTableID" style="PADDING-RIGHT: 0px;PADDING-LEFT: 0px;PADDING-BOTTOM: 0px;WIDTH: 583px;BORDER-TOP-STYLE: none;PADDING-TOP: 0px;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" cellspacing="1" cols="10" border="1">
+<colgroup>
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col /></colgroup>
+<tbody>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="5">_________________________________<font size="2">ga</font></td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="5">
+<p align="center"><font size="2">(direktorning F.I.O.)‎‎</font></p></td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="5">‎‎_________________________________<font size="2">da</font></td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="5">
+<p align="center"><font size="2">‎‎(nomzodning ota-onasi yashash joyi)</font></p></td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="5"><font size="2">‎‎yashovchi _________________________________dan</font></td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="5">
+<p align="center"><font size="2">(nomzodning ota-onasi F.I.O.)</font></p></td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="2">
+<p align="center"><font size="2"><strong>A R I Z A</strong></font></p></td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="10"><font size="2">‎‎Menga farzandim ___________________________________ning hujjatlarini Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyiga oʻqishga kirish uchun rasmiylashtirishga ruxsat berishingizni soʻrayman.</font> </td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="10"><font size="2">Akademik litseyda taʼlim olish sharoitlari bilan tanishdim.</font></td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="10"><font size="2">‎‎Farzandim imtihonlarni __________________________ tilida topshiradi.</font></td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="4">
+<p align="center"><font size="2">‎‎(oʻzbek, rus, qoraqalpoq)</font></p></td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="10"><font size="2">‎‎Akademik litseyning ichki tartib qoidalari va belgilangan barcha talablarini bajarishiga vaʼda beraman.</font></td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="5">‎‎_________________________________</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="2">_____________</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="5">
+<p align="center"><font size="2">(nomzodning ota-onasi F.I.O.)</font></p></td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="2">
+<p align="center"><font size="2">(imzo)</font></p></td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none" colspan="4">
+<p align="center"><font size="2">20___ yil “____” _____________‎‎</font></p></td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td></tr>
+<tr>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td>
+<td style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-LEFT-STYLE: none;BORDER-BOTTOM-STYLE: none">‎</td></tr></tbody></table></div></div><div class="BY_DEFAULT"><div name="-4091568" id="-4091568"></div></div><div class="BY_DEFAULT"><div name="-6102242" id="-6102242"></div></div><div class="APPL_BANNER_LANDSCAPE_TITLE"><div name="-6102243" id="-6102243">Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyiga oʻquvchilarni tanlab olish, oʻqishga qabul qilish va oʻqishdan chetlatish tartibi toʻgʻrisida <a href="https://lex.uz/uz/docs/4086981#4090707">nizomga </a><br />3-ILOVA </div></div><div class="BY_DEFAULT"><div name="-4091570" id="-4091570"></div></div><div class="TABLE_STD" id="theDefCssID"><div name="-4091829" id="-4091829" class="tabBox"><table style="BORDER-BOTTOM-STYLE: none;PADDING-BOTTOM: 0px;BORDER-RIGHT-STYLE: none;PADDING-LEFT: 0px;WIDTH: 583px;PADDING-RIGHT: 0px;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none;PADDING-TOP: 0px" id="theTableID" border="1" cellspacing="1" cols="12">
+<colgroup>
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col /></colgroup>
+<tbody>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="12">
+<p align="center"><font size="2"><strong>S Oʻ R O V N O M A‎‎</strong></font></p></td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="9"><font size="2">Nomzodning F.I.O. _______________________________________________</font></td>
+<td rowspan="7" colspan="3">
+<p align="center"><font size="2">‏<br />‎‎‏<br />‏3x4 sm oʻlchamli<br />‎ rangli fotosurat<br />‏<br />‎‎‏<br />‎‎‏<br /></font></p></td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="9">____________________________________________________‎‎</td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="9">‎‎____________________________________________________</td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="9"><font size="2">‎‎Tugʻilgan sanasi __________________________________________________</font></td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="9"><font size="2">Tugʻilgan joyi ___________________________________________________</font></td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="9"><font size="2">Millati ________________________________________________________</font></td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="9"><font size="2">Uy manzili ______________________________________________________</font></td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="12">‎‎____________________________________________________</td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="12"><font size="2">Telefon raqami __________________________________________________</font></td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="12"><font size="2">‎‎Maktab raqami va manzili __________________________________________</font></td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="12">
+<p align="center"><font size="2"><strong>Yaqin qarindoshlar haqida maʼlumotlar</strong></font></p></td></tr>
+<tr>
+<td colspan="2">
+<p align="center"><font size="2"><strong>Yaqin qarindoshlar</strong></font></p></td>
+<td colspan="2">
+<p align="center"><font size="2"><strong>F.I.O.‎‎</strong></font></p></td>
+<td colspan="2">
+<p align="center"><font size="2"><strong>Tugʻilgan joyi va sanasi‎‎</strong></font></p></td>
+<td colspan="2">
+<p align="center"><font size="2"><strong>Ish joyi va lavozimi</strong></font> </p></td>
+<td colspan="2">
+<p align="center"><font size="2"><strong>Yashash joyi‎‎</strong></font></p></td>
+<td colspan="2">
+<p align="center"><font size="2"><strong>Izoh</strong></font></p></td></tr>
+<tr>
+<td colspan="2">‎‎</td>
+<td colspan="2"></td>
+<td colspan="2"></td>
+<td colspan="2"></td>
+<td colspan="2">‎‎</td>
+<td colspan="2"></td></tr>
+<tr>
+<td colspan="2">‎‎</td>
+<td colspan="2">‎‎</td>
+<td colspan="2">‎‎</td>
+<td colspan="2">‎‎</td>
+<td colspan="2"></td>
+<td colspan="2"></td></tr>
+<tr>
+<td colspan="2">‎‎</td>
+<td colspan="2"></td>
+<td colspan="2"></td>
+<td colspan="2">‎‎</td>
+<td colspan="2">‎‎</td>
+<td colspan="2"></td></tr>
+<tr>
+<td colspan="2">‎‎</td>
+<td colspan="2">‎‎</td>
+<td colspan="2"></td>
+<td colspan="2"></td>
+<td colspan="2">‎‎</td>
+<td colspan="2"></td></tr>
+<tr>
+<td colspan="2"></td>
+<td colspan="2">‎‎</td>
+<td colspan="2"></td>
+<td colspan="2"></td>
+<td colspan="2"></td>
+<td colspan="2"></td></tr>
+<tr>
+<td colspan="2">‎‎</td>
+<td colspan="2">‎‎</td>
+<td colspan="2"></td>
+<td colspan="2">‎‎</td>
+<td colspan="2"></td>
+<td colspan="2">‎‎</td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="5">‎‎____________________________</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="2">‎‎___________</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="5">
+<p align="center"><font size="2">(nomzodning ota-onasi F.I.O.)‎‎</font></p></td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="2">
+<p align="center"><font size="2">(imzo)‎‎</font></p></td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none" colspan="5">
+<p align="center"><font size="2">20___ yil “____” _____________‎‎</font></p></td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td></tr>
+<tr>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td>
+<td style="BORDER-BOTTOM-STYLE: none;BORDER-RIGHT-STYLE: none;BORDER-TOP-STYLE: none;BORDER-LEFT-STYLE: none">‎</td></tr></tbody></table></div></div><div class="BY_DEFAULT"><div name="-6102251" id="-6102251"></div></div><div class="APPL_BANNER_LANDSCAPE_TITLE"><div name="-6102252" id="-6102252">Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyiga oʻquvchilarni tanlab olish, oʻqishga qabul qilish va oʻqishdan chetlatish tartibi toʻgʻrisida <a href="https://lex.uz/uz/docs/-4086981#-4090707">nizomga </a><br />4-ILOVA </div></div><div class="ACT_TITLE_APPL"><div name="-6102253" id="-6102253">Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyga kirish uchun imtihonlarni umumiy baholash mezonlari </div></div><div class="BY_DEFAULT"><div name="-6102254" id="-6102254"></div></div><div class="BY_DEFAULT"><div name="-6102255" id="-6102255"><table style="BORDER-RIGHT: medium none;BORDER-TOP: medium none;BORDER-LEFT: medium none;BORDER-BOTTOM: medium none;BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" width="100%" border="1">
+<tbody>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: windowtext 1pt solid;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><b><span style="FONT-SIZE: 12pt">T/r</span></b></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: windowtext 1pt solid;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" width="75%">
+<p style="LINE-HEIGHT: normal" align="center"><b><span style="FONT-SIZE: 12pt">Topshiriqlarni bajarish</span></b></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: windowtext 1pt solid;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><b><span style="FONT-SIZE: 12pt">Maksimal ball</span></b></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1.</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">Ona tili (diktant):</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">15</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1.1</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">mutlaqo xatosiz yozilgan diktant, bitta orfografik yoki bitta punktuatsion xatoga yoʻl qoʻyilgan</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">13 — 15</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1.2</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">diktant ikkita orfografik va ikkita punktuatsion xatolar bilan yozilgan, xatolar nisbati oʻzgarganda ularning umumiy miqdori toʻrttadan oshmasligi lozim</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">10 — 12</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1.3</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">diktant toʻrtta orfografik va toʻrtta punktuatsion xatolar bilan yozilgan, xatolar nisbati oʻzgarganda ularning umumiy miqdori sakkiztadan, ammo orfografik xatolarning miqdori oltitadan oshmasligi lozim</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">7 — 9</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1.4</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">diktant yettita orfografik va yettita punktuatsion xatolar bilan yozilgan</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">4 — 6</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1.5</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">diktant toʻqqizta orfografik va toʻqqizta punktuatsion xatolar bilan yozilgan</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1 — 3</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1.6</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">diktant oʻnta va undan ortiq orfografik hamda oʻnta va undan ortiq punktuatsion xatolar bilan yozilgan</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">0</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">2.</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">Matematika (nazorat ishi):</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">15</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">2.1</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">barcha vazifalar va misollar xatosiz bajarilgan, 1 ta hisoblashga oid xatoga yoʻl qoʻyilgan</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">13 — 15</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">2.2</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">2 ta hisoblashga oid xatoga yoʻl qoʻyilgan</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">10 — 12</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">2.3</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">bitta vazifa va misolda yoki 3 ta hisoblashga oid xatoga yoʻl qoʻyilgan</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">7 — 9</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">2.4</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">ikkita vazifani bajarishda xatolarga yoki 4 ta hisoblashga oid xatoga yoʻl qoʻyilgan</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">4 — 6</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">2.5</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">ikkita vazifa va bitta misolni bajarishda xatolarga yoki 5 ta hisoblashga oid xatoga yoʻl qoʻyilgan</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1 — 3</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">2.6</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">barcha vazifalar va misollar bajarilmagan</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">0</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">3.</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">Oʻqish:</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">10</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">3.1</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">bir daqiqada 70 ta va undan ortiq soʻz</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">10</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">3.2</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">bir daqiqada 60 — 65 soʻz</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">7 — 9</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">3.3</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">bir daqiqada 50 — 55 soʻz</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">4 — 6</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">3.4</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">bir daqiqada 40 — 45 soʻz</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1 — 3</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">3.5</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">bir daqiqada 40 soʻzdan kam</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">0</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">4.</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">Psixologik test:</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">20</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">4.1</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">Har bir toʻgʻri javob uchun</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">Ijodiy imtihon (musiqa):</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">40</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.1</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">ijro etish usuli (ritm):</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">10</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.1.1</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">berilgan usulni aniq takrorlash</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">8 — 10</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.1.2</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">berilgan usulni nisbatan takrorlash</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5 — 7</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.1.3</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">berilgan usulni noaniq takrorlash</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1 — 4</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.1.4</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">berilgan usulni takrorlay olmaslik</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">0</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.2</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">Xotira:</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">10</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.2.1</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">uzun va qisqa musiqa parchalarini aniq takrorlash</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">8 — 10</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.2.2</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">uzun va qisqa musiqa parchalarini nisbatan takrorlash</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5 — 7</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.2.3</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">uzun va qisqa musiqa parchalarini noaniq takrorlash</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1 — 4</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.2.4</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">uzun va qisqa musiqa parchalarini takrorlay olmaslik</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">0</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.3</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">Eshitish qobiliyati:</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">10</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.3.1</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">fortepianoda ijro etilgan tovush va tovushlar sonini toʻliq topish</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">8 — 10</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.3.2</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">fortepianoda ijro etilgan tovush va tovushlar sonini nisbatan topish</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5 — 7</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.3.3</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">fortepianoda ijro etilgan tovush va tovush<span>lar</span>sonini noaniq topish</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1 — 4</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.3.4</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">fortepianoda ijro etilgan tovushlarni topa olmaslik</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">0</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.4</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">Mustaqil tayyorlangan qoʻshiqni kuylash yoki asarni cholgʻuda ijro etish: </span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">10</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.4.1</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">sof va aniq ohangda kuylash yoki cholgʻuda ijro etish</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">8 — 10</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.4.2</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">qoʻshiqni nisbatan sof ohangda kuylash yoki cholgʻuda asarni ijro darajasi</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5 — 7</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.4.3</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt;COLOR: black">qoʻshiqni noaniq ohangda kuylash yoki cholgʻuda asarning</span><span style="FONT-SIZE: 12pt;COLOR: black"> ijro darajasi</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">1 — 4</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="6%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">5.4.4</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="75%">
+<p style="LINE-HEIGHT: normal"><span style="FONT-SIZE: 12pt">qoʻshiqni kuylay olmaslik</span></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 12pt">0</span></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: windowtext 1pt solid;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="82%" colspan="2">
+<p style="LINE-HEIGHT: normal" align="center"><b><span style="FONT-SIZE: 12pt">Jami:</span></b></p></td>
+<td style="BORDER-RIGHT: windowtext 1pt solid;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: windowtext 1pt solid" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="center"><b><span style="FONT-SIZE: 12pt">100</span></b></p></td></tr>
+<tr>
+<td style="BORDER-RIGHT: #ece9d8;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: #ece9d8" valign="top" width="82%" colspan="2">
+<p style="LINE-HEIGHT: normal" align="center"><b></b></p></td>
+<td style="BORDER-RIGHT: #ece9d8;PADDING-RIGHT: 2.85pt;BORDER-TOP: #ece9d8;PADDING-LEFT: 2.85pt;PADDING-BOTTOM: 0cm;BORDER-LEFT: #ece9d8;PADDING-TOP: 0cm;BORDER-BOTTOM: #ece9d8" valign="top" width="17%">
+<p style="LINE-HEIGHT: normal" align="right"><span style="FONT-SIZE: 12pt"></span></p></td></tr></tbody></table></div></div><div class="BY_DEFAULT"><div name="-4092230" id="-4092230"></div></div><div class="BY_DEFAULT"><div name="-6102246" id="-6102246"></div></div><div class="APPL_BANNER_LANDSCAPE_TITLE"><div name="-6102247" id="-6102247">Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyiga oʻquvchilarni tanlab olish, oʻqishga qabul qilish va oʻqishdan chetlatish tartibi toʻgʻrisida <a href="https://lex.uz/uz/docs/-4086981#-4090707">nizomga </a><br />5-ILOVA </div></div><div class="ACT_TITLE_APPL"><div name="-6102248" id="-6102248">Oʻquvchilarni Oʻzbekiston Respublikasi Milliy gvardiyasi Harbiy musiqa akademik litseyidan chetlatish </div></div><div class="ACT_FORM"><div name="-6102249" id="-6102249">SXEMASI </div></div><div class="BY_DEFAULT"><div name="-4092239" id="-4092239"></div></div><div class="TEXT_CENTER"><div name="-4092312" id="-4092312"><img src="https://lex.uz/uz/files/4092286" /></div></div></div>
+</div></body></html>

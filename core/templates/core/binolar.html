@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+{% load mg_tags humanize %}
+
+{% block title %}Yangi binolar — {{ SITE_TITLE }}{% endblock %}
+
+{% block breadcrumb %}
+<nav class="breadcrumb">
+  <a href="{% url 'core:home' %}">{% svg 'home' 13 %} Bosh sahifa</a>
+  <span class="breadcrumb__sep">{% svg 'chev' 12 %}</span>
+  <span>Yangi binolar</span>
+</nav>
+{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <h1 class="page-title">Yangi binolar</h1>
+  <p class="page-sub">Milliy gvardiyaning moddiy-texnik bazasini mustahkamlash, zamonaviy infratuzilmani rivojlantirish va xizmat sharoitlarini yaxshilash maqsadida foydalanishga topshirilgan yangi bino va inshootlar.</p>
+</section>
+
+{% include "includes/list_filters.html" %}
+
+<div class="stats">
+  <div class="stat">
+    <div class="stat__icon" style="background:#1d4ed822;border:1px solid #1d4ed855">🏛️</div>
+    <div><div class="stat__value">{{ buildings_total }}</div><div class="stat__label">Yangi bino<br>{{ year_min }}–{{ year_max }} yillarda</div></div>
+  </div>
+  <div class="stat">
+    <div class="stat__icon" style="background:#16a34a22;border:1px solid #16a34a55">📍</div>
+    <div><div class="stat__value">{{ regions_count }}</div><div class="stat__label">Viloyat va shahar</div></div>
+  </div>
+  <div class="stat">
+    <div class="stat__icon" style="background:#eab30822;border:1px solid #eab30855">📷</div>
+    <div><div class="stat__value">{{ photos_total|intcomma }}</div><div class="stat__label">Foto materiallar</div></div>
+  </div>
+  <div class="stat">
+    <div class="stat__icon" style="background:#8b5cf622;border:1px solid #8b5cf655">📅</div>
+    <div><div class="stat__value">{{ years|length }}</div><div class="stat__label">Faoliyat yillari</div></div>
+  </div>
+</div>
+
+<div class="grid grid--4">
+  {% for b in page %}
+  <a class="card" href="{{ b.get_absolute_url }}">
+    <div class="card__media">
+      <div class="ph" style="background:{% if b.image %}url('{{ b.image.url }}') center/cover{% else %}{{ b.title|gradient }}{% endif %}"></div>
+      <span class="card__year">{{ b.year }}</span>
+      <span class="card__type" style="background:#1d4ed8">{{ b.get_building_type_display }}</span>
+    </div>
+    <div class="card__body">
+      <div class="card__title">{{ b.title }}</div>
+    </div>
+    <div class="card__loc">{% svg 'pin' 12 %} {{ b.address|default:b.region|default:"O‘zbekiston" }}</div>
+    <div class="card__meta">
+      <span class="album-open" data-album="{{ b|album_ref }}?tur=foto" title="Fotoalbomni ochish">{% svg 'camera' 12 %} {{ b|album_n }}</span>
+      <span class="album-open" data-album="{{ b|album_ref }}?tur=video" title="Videoalbomni ochish">{% svg 'video' 12 %} {{ b|album_n:"video" }}</span>
+      <span>{% svg 'file' 12 %} {{ b.doc_count }}</span>
+      <span class="push card__arrow">{% svg 'arrow' 13 %}</span>
+    </div>
+  </a>
+  {% empty %}
+  <div class="empty" style="grid-column:1/-1"><div class="empty__icon">🏗️</div>Bino topilmadi</div>
+  {% endfor %}
+</div>
+
+{% include "includes/pagination.html" %}
+{% endblock %}
+
+{% block rightbar %}
+<aside class="rpanel">
+  <div class="panel">
+    <div class="panel__head">
+      <div class="panel__title">Hududlar bo'yicha</div>
+      <a class="panel__more" href="?">Barchasini ko'rish {% svg 'arrow' 13 %}</a>
+    </div>
+    {% for r in regions %}
+      <div class="region-row"><span>{% svg 'pin' 12 %} {{ r.name }}</span><b>{{ r.count }}</b></div>
+    {% endfor %}
+  </div>
+
+  <div class="panel">
+    <div class="panel__head">
+      <div class="panel__title">Joylashuv xaritasi</div>
+      <a class="panel__more" href="#" data-map-expand="buildingsMap">Kattalashtirish {% svg 'arrow' 13 %}</a>
+    </div>
+    {% include "includes/building_map.html" with points=map_buildings map_id="buildingsMap" height="190px" %}
+  </div>
+
+  <div class="panel">
+    <div class="panel__head">
+      <div class="panel__title">So'nggi qo'shilgan binolar</div>
+      <a class="panel__more" href="?">Barchasini ko'rish {% svg 'arrow' 13 %}</a>
+    </div>
+    <div class="mini-list">
+      {% for b in latest %}
+      <a class="mini" href="{{ b.get_absolute_url }}">
+        <span class="mini__img ph" style="background:{% if b.image %}url('{{ b.image.url }}') center/cover{% else %}{{ b.title|gradient }}{% endif %}"></span>
+        <span>
+          <div class="mini__title">{{ b.title|truncatechars:38 }}</div>
+          <div class="mini__sub">{% svg 'calendar' 11 %} {{ b.handover_date|default:b.year }}</div>
+        </span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</aside>
+{% endblock %}
+
+{% block scripts %}{% include "includes/building_map_assets.html" %}{% endblock %}

@@ -1,0 +1,8 @@
+{% load mg_tags %}{# Binolar xaritasi: points (Building ro'yxati yoki bitta bino), map_id, height #}
+<div class="map-live" id="{{ map_id }}" style="height:{{ height|default:'150px' }}" data-points="{{ points|map_points }}">
+  <div class="map-live__fallback">Xarita yuklanmoqda…</div>
+</div>
+<div class="map-legend">
+  <span><i class="map-legend__dot"></i> Aniq / tuman</span>
+  <span><i class="map-legend__dot map-legend__dot--approx"></i> Taxminiy (viloyat markazi)</span>
+</div>

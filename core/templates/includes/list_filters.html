@@ -1,0 +1,40 @@
+{% load mg_tags %}
+{% comment %}
+  Bo'lim sahifalari uchun yagona filtr: Kategoriya + Yil + qidiruv.
+  Kontekst: cat_param, cat_title, cat_options, active_cat, cat_total, year_options, year_total, active_year,
+            filtered_total, q; ixtiyoriy: search_placeholder, keep (yashirin saqlanadigan qo'shimcha parametr nomi).
+{% endcomment %}
+<div class="fbox">
+  {% if cat_options %}
+  <div class="fbox__row">
+    <span class="fbox__label">{% svg 'filter' 13 %} {{ cat_title|default:"Kategoriya" }}</span>
+    <div class="fbox__chips">
+      {% if not cat_default %}<a class="chip{% if not active_cat %} is-active{% endif %}" href="{% filter_url cat_param '' %}">Barchasi <span class="chip__n">{{ cat_total }}</span></a>{% endif %}
+      {% for c in cat_options %}
+        <a class="chip{% if active_cat == c.value|stringformat:'s' %} is-active{% endif %}{% if not c.count %} is-empty{% endif %}" href="{% if cat_default %}{% filter_url cat_param c.value 'yil' '' %}{% else %}{% filter_url cat_param c.value %}{% endif %}">{{ c.label }} <span class="chip__n">{{ c.count }}</span></a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if year_options %}
+  <div class="fbox__row">
+    <span class="fbox__label">{% svg 'calendar' 13 %} Yil</span>
+    <div class="fbox__chips">
+      <a class="chip{% if not active_year %} is-active{% endif %}" href="{% filter_url 'yil' '' %}">Barcha yillar <span class="chip__n">{{ year_total }}</span></a>
+      {% for y in year_options %}
+        <a class="chip{% if y.value == active_year %} is-active{% endif %}{% if not y.count %} is-empty{% endif %}" href="{% filter_url 'yil' y.value %}">{{ y.value }} <span class="chip__n">{{ y.count }}</span></a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <form method="get" class="fbox__search">
+    {% for key, val in request.GET.items %}{% if key != 'q' and key != 'page' %}<input type="hidden" name="{{ key }}" value="{{ val }}">{% endif %}{% endfor %}
+    <input type="search" name="q" value="{{ q }}" placeholder="{{ search_placeholder|default:'Nomi yoki matni bo‘yicha qidiruv...' }}">
+    <button class="btn" type="submit">{% svg 'search' 13 %} Qidirish</button>
+    <span class="fbox__result">Topildi: <b>{{ filtered_total }}</b>
+      {% if active_cat != cat_default or active_year or q %}<a class="fbox__reset" href="?">✕ Filtrlarni tozalash</a>{% endif %}
+    </span>
+  </form>
+</div>

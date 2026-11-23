@@ -1,0 +1,201 @@
+{% extends "base.html" %}
+{% load mg_tags humanize %}
+
+{% block title %}{{ obj|title_of }} — {{ SITE_TITLE }}{% endblock %}
+
+{% block breadcrumb %}
+<nav class="breadcrumb">
+  <a href="{% url 'core:home' %}">{% svg 'home' 13 %} Bosh sahifa</a>
+  {% for crumb in breadcrumbs %}
+    <span class="breadcrumb__sep">{% svg 'chev' 12 %}</span>
+    {% if crumb.url %}<a href="{{ crumb.url }}">{{ crumb.title }}</a>{% else %}<span>{{ crumb.title }}</span>{% endif %}
+  {% endfor %}
+</nav>
+{% endblock %}
+
+{% block content %}
+<div class="detail-top">
+  <div>
+    {% if badge %}<span class="detail-badge" style="background:{{ badge_color|default:'#1d4ed8' }}">{{ badge }}</span>{% endif %}
+    <h1 class="page-title" style="font-size:30px">{{ obj|title_of }}</h1>
+  </div>
+  <div class="detail-actions">
+    <button class="btn">{% svg 'share' 14 %} Ulashish</button>
+    {% if bookmark %}
+    <form method="post" action="{% url 'core:bookmark_toggle' %}">
+      {% csrf_token %}
+      <input type="hidden" name="ctype" value="{{ bookmark }}">
+      <input type="hidden" name="oid" value="{{ obj.pk }}">
+      <input type="hidden" name="next" value="{{ request.path }}">
+      <button class="btn" type="submit">{% svg 'bookmark' 14 %} Saqlash</button>
+    </form>
+    {% endif %}
+  </div>
+</div>
+
+{% if meta %}
+<div class="meta-row">
+  {% for m in meta %}
+    <span>{% svg m.icon 15 %} <b>{{ m.value }}</b></span>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if obj.file or obj.file_word %}
+<div class="doc-facts mb-16">
+  <div class="doc-fact"><span>Hujjat turi</span><b>{{ doc_kind }}</b></div>
+  <div class="doc-fact"><span>Raqami</span><b>№ {{ obj.doc_number|default:"—" }}</b></div>
+  <div class="doc-fact"><span>Qabul qilingan sana</span><b>{{ obj.date|default:"—" }}</b></div>
+  <div class="doc-fact"><span>Kuchga kirgan sana</span><b>{{ obj.effective_date|default:"—" }}</b></div>
+  {% if obj.status %}<div class="doc-fact"><span>Holati</span><b class="doc-status{% if 'yo' in obj.status %} doc-status--off{% endif %}">{{ obj.status }}</b></div>{% endif %}
+</div>
+
+<section class="doc-viewer mb-16" id="docViewer">
+  <div class="doc-viewer__bar">
+    <div class="doc-tabs" role="tablist">
+      {% if obj.file %}<button type="button" class="doc-tab is-active" data-tab="pdf" role="tab">{% svg 'file' 14 %} PDF</button>{% endif %}
+      {% if obj.file_word %}<button type="button" class="doc-tab{% if not obj.file %} is-active{% endif %}" data-tab="word" role="tab">{% svg 'file' 14 %} Word</button>{% endif %}
+    </div>
+    <div class="doc-actions">
+      {% if obj.file %}
+        <a class="btn doc-act" data-for="pdf" href="{{ obj.file.url }}" target="_blank" rel="noopener">{% svg 'expand' 13 %} Yangi oynada ochish</a>
+        <a class="btn doc-act" data-for="pdf" href="{{ obj.file.url }}" download>{% svg 'arrow' 13 %} PDF yuklab olish</a>
+      {% endif %}
+      {% if obj.file_word %}
+        {% if word_kind == 'html' %}<a class="btn doc-act" data-for="word" href="{% url 'core:hujjat_word' obj.slug %}" target="_blank" rel="noopener">{% svg 'expand' 13 %} Yangi oynada ochish</a>{% endif %}
+        <a class="btn doc-act" data-for="word" href="{{ obj.file_word.url }}" download>{% svg 'arrow' 13 %} Word yuklab olish</a>
+      {% endif %}
+    </div>
+  </div>
+  <div class="doc-viewer__body">
+    {% if obj.file %}
+    <div class="doc-pane is-active" data-pane="pdf">
+      <iframe src="{{ obj.file.url }}#view=FitH" title="{{ obj.title }} — PDF" loading="lazy"></iframe>
+    </div>
+    {% endif %}
+    {% if obj.file_word %}
+    <div class="doc-pane{% if not obj.file %} is-active{% endif %}" data-pane="word">
+      {% if word_kind == 'html' %}
+        <iframe data-src="{% url 'core:hujjat_word' obj.slug %}" title="{{ obj.title }} — Word" sandbox></iframe>
+      {% elif word_kind == 'docx' %}
+        <div class="docx-host" data-docx="{{ obj.file_word.url }}"><div class="doc-note">Hujjat yuklanmoqda…</div></div>
+      {% else %}
+        <div class="doc-note">Bu Word formatini (eski .doc) brauzer ko'rsata olmaydi. Faylni yuklab oling yoki PDF ko'rinishidan foydalaning.</div>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+{% if obj.file or obj.file_word %}{% include "includes/year_gallery.html" with no_single=1 %}{% else %}{% include "includes/year_gallery.html" %}{% endif %}
+
+<h2 class="section-title" style="margin-top:0">Tavsif</h2>
+<div class="prose">
+  {% if obj.description %}
+    {% for p in obj.description|lines %}<p>{{ p }}</p>{% endfor %}
+  {% elif obj.bio %}
+    {% for p in obj.bio|lines %}<p>{{ p }}</p>{% endfor %}
+  {% else %}
+    <p>{{ obj.summary|default:"Ma'lumot kiritilmagan." }}</p>
+  {% endif %}
+  {% if obj.body %}
+    {% for p in obj.body|lines %}<p>{{ p }}</p>{% endfor %}
+  {% endif %}
+</div>
+
+{% include "includes/album.html" %}
+
+{% if highlights %}
+<h2 class="section-title">Asosiy natijalar va imkoniyatlar</h2>
+<div class="highlights">
+  {% for h in highlights %}
+  <div>
+    <div class="highlight__icon">{{ h.icon }}</div>
+    <div class="highlight__title">{{ h.title }}</div>
+    <div class="highlight__text">{{ h.text }}</div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+{% endblock %}
+
+{% block rightbar %}
+<aside class="rpanel">
+  <div class="panel">
+    <div class="panel__head"><div class="panel__title">Asosiy ma'lumotlar</div></div>
+    <div class="info-list">
+      {% for item in info %}
+      <div class="info-item">
+        <div class="info-item__icon">{% svg item.icon 16 %}</div>
+        <div>
+          <div class="info-item__label">{{ item.label }}</div>
+          <div class="info-item__value">{{ item.value }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  {% if tags %}
+  <div class="panel">
+    <div class="panel__head"><div class="panel__title">Teglar</div></div>
+    <div class="tags">
+      {% for t in tags %}<span class="tag">#{{ t }}</span>{% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="panel">
+    <div class="panel__head">
+      <div class="panel__title">Tegishli materiallar</div>
+      <a class="panel__more" href="{{ related_url|default:'/' }}">Barchasini ko'rish {% svg 'arrow' 13 %}</a>
+    </div>
+    <div class="mini-list">
+      {% for m in related %}
+      <a class="mini" href="{{ m.url }}">
+        <span class="mini__img ph" style="background:{% if m.image %}url('{{ m.image.url }}') center/cover{% else %}{{ m.title|gradient }}{% endif %}"></span>
+        <span>
+          <div class="mini__title">{{ m.title|truncatechars:34 }}</div>
+          <div class="mini__sub">{% if m.duration %}{% svg 'clock' 11 %} {{ m.duration }} &nbsp;{% endif %}{% if m.date %}{% svg 'calendar' 11 %} {{ m.date }}{% elif m.meta %}{{ m.meta }}{% endif %}</div>
+        </span>
+      </a>
+      {% empty %}
+      <div class="text-muted" style="font-size:12px">Material topilmadi</div>
+      {% endfor %}
+    </div>
+  </div>
+</aside>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function(){
+  var v = document.getElementById('docViewer');
+  if (!v) return;
+  function activate(name){
+    v.querySelectorAll('.doc-tab').forEach(function(t){ t.classList.toggle('is-active', t.dataset.tab === name); });
+    v.querySelectorAll('.doc-pane').forEach(function(p){ p.classList.toggle('is-active', p.dataset.pane === name); });
+    v.querySelectorAll('.doc-act').forEach(function(a){ a.style.display = a.dataset.for === name ? '' : 'none'; });
+    var pane = v.querySelector('.doc-pane[data-pane="' + name + '"]');
+    if (!pane) return;
+    var fr = pane.querySelector('iframe[data-src]');
+    if (fr && !fr.src) fr.src = fr.dataset.src;
+    var host = pane.querySelector('[data-docx]');
+    if (host && !host.dataset.done) { host.dataset.done = '1'; renderDocx(host); }
+  }
+  function load(src){ return new Promise(function(ok, no){ var s = document.createElement('script'); s.src = src.u; s.integrity = src.i; s.crossOrigin = 'anonymous'; s.onload = ok; s.onerror = no; document.head.appendChild(s); }); }
+  function renderDocx(host){
+    var note = host.querySelector('.doc-note');
+    load({u: 'https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js', i: 'sha384-+mbV2IY1Zk/X1p/nWllGySJSUN8uMs+gUAN10Or95UBH0fpj6GfKgPmgC5EXieXG'})
+      .then(function(){ return load({u: 'https://cdn.jsdelivr.net/npm/docx-preview@0.3.5/dist/docx-preview.min.js', i: 'sha384-XETEC39BEI+1nILZ5N2gFQcu6ii4k3avoqyi4YwQMbs29xkt01EKMqd9rFvic0Wu'}); })
+      .then(function(){ return fetch(host.dataset.docx); })
+      .then(function(r){ return r.blob(); })
+      .then(function(b){ host.innerHTML = ''; return docx.renderAsync(b, host, null, {inWrapper: true, ignoreLastRenderedPageBreak: true}); })
+      .catch(function(){ if (note) note.textContent = note.dataset.err || 'Hujjatni ko‘rsatib bo‘lmadi — yuklab oling.'; });
+  }
+  v.querySelectorAll('.doc-tab').forEach(function(t){ t.addEventListener('click', function(){ activate(t.dataset.tab); }); });
+  var first = v.querySelector('.doc-tab.is-active');
+  if (first) activate(first.dataset.tab);
+})();
+</script>
+{% endblock %}

@@ -1,0 +1,46 @@
+{% load mg_tags %}
+{% comment %}
+  Yil bo'yicha guruhlangan fotogalereya.
+  Parametrlar: obj, gallery; tall=1 (portret), no_single=1 (bitta rasmni ko'rsatmaslik), placeholder=1 (rasm bo'lmasa fon).
+{% endcomment %}
+{% with main=obj|main_image %}
+{% if gallery %}
+<div class="ymedia mb-16">
+  {% with years=gallery|media_years %}{% if years|length > 1 %}
+  <div class="chips year-filter ymedia__years">
+    <span class="year-filter__label">{% svg 'calendar' 13 %} Yil:</span>
+    <button type="button" class="chip ymedia__chip is-active" data-year="">Barchasi <span class="ymedia__n">{{ gallery|length }}</span></button>
+    {% for y, n in years %}<button type="button" class="chip ymedia__chip" data-year="{{ y }}">{{ y }} <span class="ymedia__n">{{ n }}</span></button>{% endfor %}
+  </div>
+  {% endif %}{% endwith %}
+  <div class="gallery{% if tall %} gallery--person{% endif %}">
+    <div class="gallery__main{% if tall %} gallery__main--tall{% endif %}">
+      <div class="ph" style="background:{% if main %}url('{{ main.url }}') center/cover{% else %}{{ obj|title_of|gradient }}{% endif %}"></div>
+      <button class="gallery__nav gallery__nav--prev">{% svg 'chevL' 17 %}</button>
+      <button class="gallery__nav gallery__nav--next">{% svg 'chev' 17 %}</button>
+      <span class="gallery__counter">1 / {{ gallery|length }}</span>
+    </div>
+    <div class="thumbs">
+      {% for g in gallery %}
+        <span class="thumb{% if forloop.first %} is-active{% endif %}" data-src="{% if g.image %}{{ g.image.url }}{% endif %}" data-year="{{ g.year|default_if_none:'' }}"{% if g.year %} title="{{ g.year }}"{% endif %}>
+          <span class="ph" style="display:block;background:{% if g.image %}url('{{ g.image.url }}') center/cover{% else %}{{ g.title|gradient }}{% endif %}"></span>
+          {% if g.year %}<span class="thumb__year">{{ g.year }}</span>{% endif %}
+        </span>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% elif main and not no_single %}
+<div class="gallery{% if tall %} gallery--person{% endif %} mb-16">
+  <div class="gallery__main{% if tall %} gallery__main--tall{% endif %}">
+    <div class="ph" style="background:url('{{ main.url }}') center/cover"></div>
+  </div>
+</div>
+{% elif placeholder %}
+<div class="gallery mb-16">
+  <div class="gallery__main">
+    <div class="ph" style="background:{{ obj|title_of|gradient }}"></div>
+  </div>
+</div>
+{% endif %}
+{% endwith %}

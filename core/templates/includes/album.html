@@ -1,0 +1,63 @@
+{% load mg_tags %}
+{% comment %}
+  Interaktiv foto- va videoalbom (detal sahifalar uchun).
+  Kontekst: obj, album_photos (rasmlar), videos (Video obyektlari).
+  Har qanday rasm/videoni bosganda — to'liq ekranli albom (lightbox) ochiladi.
+{% endcomment %}
+{% if album_photos or videos %}
+<section class="album" data-album-root>
+  <div class="album__head">
+    <h2 class="section-title album__title">{% svg 'image' 18 %} Media albom</h2>
+    <div class="album__tabs" role="tablist">
+      {% if album_photos %}<button type="button" class="album__tab is-active" data-tab="foto" role="tab">{% svg 'camera' 14 %} Fotoalbom <span class="album__n">{{ album_photos|length }}</span></button>{% endif %}
+      {% if videos %}<button type="button" class="album__tab{% if not album_photos %} is-active{% endif %}" data-tab="video" role="tab">{% svg 'video' 14 %} Videoalbom <span class="album__n">{{ videos|length }}</span></button>{% endif %}
+    </div>
+    <button type="button" class="btn album__play" data-album-slideshow title="Slayd-shou">{% svg 'play' 13 %} Slayd-shou</button>
+  </div>
+
+  {% if album_photos %}
+  <div class="album__pane{% if not album_photos %} is-hidden{% endif %}" data-pane="foto">
+    {% with years=album_photos|media_years %}{% if years|length > 1 %}
+    <div class="chips album__years">
+      <span class="year-filter__label">{% svg 'calendar' 13 %} Yil:</span>
+      <button type="button" class="chip is-active" data-year="">Barchasi <span class="chip__n">{{ album_photos|length }}</span></button>
+      {% for y, n in years %}<button type="button" class="chip" data-year="{{ y }}">{{ y }} <span class="chip__n">{{ n }}</span></button>{% endfor %}
+    </div>
+    {% endif %}{% endwith %}
+    <div class="album__grid">
+      {% for p in album_photos %}{% if p.image %}
+      <button type="button" class="album__tile" data-type="image" data-src="{{ p.image.url }}" data-title="{% firstof p.title obj|title_of %}" data-year="{{ p.year|default_if_none:'' }}">
+        <img src="{{ p.image.url }}" alt="{% firstof p.title obj|title_of %}" loading="lazy">
+        {% if p.year %}<span class="album__year">{{ p.year }}</span>{% endif %}
+        <span class="album__zoom">{% svg 'expand' 16 %}</span>
+      </button>
+      {% endif %}{% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if videos %}
+  <div class="album__pane{% if album_photos %} is-hidden{% endif %}" data-pane="video">
+    {% with years=videos|media_years %}{% if years|length > 1 %}
+    <div class="chips album__years">
+      <span class="year-filter__label">{% svg 'calendar' 13 %} Yil:</span>
+      <button type="button" class="chip is-active" data-year="">Barchasi <span class="chip__n">{{ videos|length }}</span></button>
+      {% for y, n in years %}<button type="button" class="chip" data-year="{{ y }}">{{ y }} <span class="chip__n">{{ n }}</span></button>{% endfor %}
+    </div>
+    {% endif %}{% endwith %}
+    <div class="album__grid album__grid--video">
+      {% for v in videos %}{% with thumb=v|video_thumb %}
+      <button type="button" class="album__tile album__tile--video" data-item="{{ v|video_lb }}" data-year="{{ v.year|default_if_none:'' }}">
+        {% if thumb %}<img src="{{ thumb }}" alt="{{ v.title }}" loading="lazy">
+        {% elif v.video_file %}<video src="{{ v.video_file.url }}#t=0.5" preload="metadata" muted playsinline></video>
+        {% else %}<span class="ph" style="background:{{ obj|title_of|gradient }}"></span>{% endif %}
+        <span class="album__playicon">{% svg 'play' 22 %}</span>
+        {% if v.year %}<span class="album__year">{{ v.year }}</span>{% endif %}
+        {% if v.title %}<span class="album__caption">{{ v.title|truncatechars:60 }}</span>{% endif %}
+      </button>
+      {% endwith %}{% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</section>
+{% endif %}

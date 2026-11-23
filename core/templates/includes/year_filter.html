@@ -1,0 +1,8 @@
+{% load mg_tags %}
+<div class="chips year-filter">
+  <span class="year-filter__label">{% svg 'calendar' 13 %} Yil:</span>
+  <a class="chip{% if not active_year %} is-active{% endif %}" href="{% year_url %}">Barcha yillar</a>
+  {% for y in years %}
+    <a class="chip{% if y == active_year %} is-active{% endif %}" href="{% year_url y %}">{{ y }}</a>
+  {% endfor %}
+</div>

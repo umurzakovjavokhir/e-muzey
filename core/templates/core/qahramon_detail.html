@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% load mg_tags humanize %}
+
+{% block title %}{{ obj|title_of }} — {{ SITE_TITLE }}{% endblock %}
+
+{% block breadcrumb %}
+<nav class="breadcrumb">
+  <a href="{% url 'core:home' %}">{% svg 'home' 13 %} Bosh sahifa</a>
+  {% for crumb in breadcrumbs %}
+    <span class="breadcrumb__sep">{% svg 'chev' 12 %}</span>
+    {% if crumb.url %}<a href="{{ crumb.url }}">{{ crumb.title }}</a>{% else %}<span>{{ crumb.title }}</span>{% endif %}
+  {% endfor %}
+</nav>
+{% endblock %}
+
+{% block content %}
+<div class="detail-top">
+  <div>
+    {% if badge %}<span class="detail-badge" style="background:{{ badge_color|default:'#1d4ed8' }}">{{ badge }}</span>{% endif %}
+    <h1 class="page-title" style="font-size:30px">{{ obj|title_of }}</h1>
+  </div>
+  <div class="detail-actions">
+    <button class="btn">{% svg 'share' 14 %} Ulashish</button>
+    {% if bookmark %}
+    <form method="post" action="{% url 'core:bookmark_toggle' %}">
+      {% csrf_token %}
+      <input type="hidden" name="ctype" value="{{ bookmark }}">
+      <input type="hidden" name="oid" value="{{ obj.pk }}">
+      <input type="hidden" name="next" value="{{ request.path }}">
+      <button class="btn" type="submit">{% svg 'bookmark' 14 %} Saqlash</button>
+    </form>
+    {% endif %}
+  </div>
+</div>
+
+{% if meta %}
+<div class="meta-row">
+  {% for m in meta %}
+    <span>{% svg m.icon 15 %} <b>{{ m.value }}</b></span>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% include "includes/year_gallery.html" with tall=1 %}
+
+{% if obj.feat %}
+<div class="hero-feat mb-16">
+  <div class="hero-feat__label">🎖️ Jasorat</div>
+  <p>{{ obj.feat }}</p>
+</div>
+{% endif %}
+
+<h2 class="section-title" style="margin-top:0">Tarjimai hol</h2>
+<div class="prose">
+  {% if obj.description %}
+    {% for p in obj.description|lines %}<p>{{ p }}</p>{% endfor %}
+  {% elif obj.bio %}
+    {% for p in obj.bio|lines %}<p>{{ p }}</p>{% endfor %}
+  {% else %}
+    <p>{{ obj.summary|default:"Ma'lumot kiritilmagan." }}</p>
+  {% endif %}
+  {% if obj.body %}
+    {% for p in obj.body|lines %}<p>{{ p }}</p>{% endfor %}
+  {% endif %}
+</div>
+
+{% include "includes/album.html" %}
+
+{% if highlights %}
+<h2 class="section-title">Asosiy natijalar va imkoniyatlar</h2>
+<div class="highlights">
+  {% for h in highlights %}
+  <div>
+    <div class="highlight__icon">{{ h.icon }}</div>
+    <div class="highlight__title">{{ h.title }}</div>
+    <div class="highlight__text">{{ h.text }}</div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+{% endblock %}
+
+{% block rightbar %}
+<aside class="rpanel">
+  <div class="panel">
+    <div class="panel__head"><div class="panel__title">Asosiy ma'lumotlar</div></div>
+    <div class="info-list">
+      {% for item in info %}
+      <div class="info-item">
+        <div class="info-item__icon">{% svg item.icon 16 %}</div>
+        <div>
+          <div class="info-item__label">{{ item.label }}</div>
+          <div class="info-item__value">{{ item.value }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  {% if tags %}
+  <div class="panel">
+    <div class="panel__head"><div class="panel__title">Teglar</div></div>
+    <div class="tags">
+      {% for t in tags %}<span class="tag">#{{ t }}</span>{% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="panel">
+    <div class="panel__head">
+      <div class="panel__title">Tegishli materiallar</div>
+      <a class="panel__more" href="{{ related_url|default:'/' }}">Barchasini ko'rish {% svg 'arrow' 13 %}</a>
+    </div>
+    <div class="mini-list">
+      {% for m in related %}
+      <a class="mini" href="{{ m.url }}">
+        <span class="mini__img mini__img--tall ph" style="background:{% if m.image %}url('{{ m.image.url }}') center top/cover{% else %}{{ m.title|gradient }}{% endif %}"></span>
+        <span>
+          <div class="mini__title">{{ m.title|truncatechars:34 }}</div>
+          <div class="mini__sub">{% if m.duration %}{% svg 'clock' 11 %} {{ m.duration }} &nbsp;{% endif %}{% if m.date %}{% svg 'calendar' 11 %} {{ m.date }}{% elif m.meta %}{{ m.meta }}{% endif %}</div>
+        </span>
+      </a>
+      {% empty %}
+      <div class="text-muted" style="font-size:12px">Material topilmadi</div>
+      {% endfor %}
+    </div>
+  </div>
+</aside>
+{% endblock %}

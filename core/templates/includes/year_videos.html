@@ -1,0 +1,31 @@
+{% load mg_tags %}
+{% if videos %}
+<h2 class="section-title">Videolar <span class="text-muted" style="font-size:14px;font-weight:600">({{ videos|length }})</span></h2>
+<div class="ymedia mb-16">
+  {% with years=videos|media_years %}{% if years|length > 1 %}
+  <div class="chips year-filter ymedia__years">
+    <span class="year-filter__label">{% svg 'calendar' 13 %} Yil:</span>
+    <button type="button" class="chip ymedia__chip is-active" data-year="">Barchasi <span class="ymedia__n">{{ videos|length }}</span></button>
+    {% for y, n in years %}<button type="button" class="chip ymedia__chip" data-year="{{ y }}">{{ y }} <span class="ymedia__n">{{ n }}</span></button>{% endfor %}
+  </div>
+  {% endif %}{% endwith %}
+  <div class="person-videos">
+    {% for v in videos %}
+    {% with thumb=v|video_thumb %}
+    <a href="{% if v.video_file %}{{ v.video_file.url }}{% else %}{{ v.video_url }}{% endif %}" class="person-video" data-lb="{{ v|video_lb }}" data-year="{{ v.year|default_if_none:'' }}" title="{{ v.title }}">
+      {% if thumb %}
+        <span class="person-video__img" style="background:url('{{ thumb }}') center/cover"></span>
+      {% elif v.video_file %}
+        <video class="person-video__img" src="{{ v.video_file.url }}#t=0.5" preload="metadata" muted playsinline></video>
+      {% else %}
+        <span class="person-video__img" style="background:{{ obj|title_of|gradient }}"></span>
+      {% endif %}
+      <span class="person-video__play">{% svg 'play' 20 %}</span>
+      {% if v.year %}<span class="person-video__year">{{ v.year }}</span>{% endif %}
+      {% if v.title %}<span class="person-video__title">{{ v.title|truncatechars:60 }}</span>{% endif %}
+    </a>
+    {% endwith %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

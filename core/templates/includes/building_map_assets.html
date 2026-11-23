@@ -1,0 +1,92 @@
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<div class="map-modal" id="mapModal" hidden role="dialog" aria-modal="true" aria-label="Joylashuv xaritasi">
+  <div class="map-modal__box">
+    <div class="map-modal__head">
+      <b>Joylashuv xaritasi</b>
+      <button type="button" class="lb__btn map-modal__close" aria-label="Yopish" title="Yopish">✕</button>
+    </div>
+    <div class="map-modal__map" id="mapModalMap"></div>
+  </div>
+  <span hidden id="mapI18n"><span data-k="more">Batafsil →</span><span data-k="approx">taxminiy</span><span data-k="dark">Qorong'i</span><span data-k="osm">Oddiy xarita</span><span data-k="sat">Sun'iy yo'ldosh</span><span data-k="fail">Xaritani yuklab bo'lmadi (internet aloqasini tekshiring)</span></span>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+(function(){
+  var T = {};
+  document.querySelectorAll('#mapI18n [data-k]').forEach(function(x){ T[x.getAttribute('data-k')] = x.textContent; });
+  if (!window.L) {
+    document.querySelectorAll('.map-live__fallback').forEach(function(f){ f.textContent = T.fail; });
+    return;
+  }
+  // Kalit (API key) talab qilmaydigan xarita qatlamlari
+  var ESRI = 'https://server.arcgisonline.com/ArcGIS/rest/services/';
+  var ESRI_ATTR = 'Tiles &copy; <a href="https://www.esri.com/">Esri</a>';
+  function layers(){
+    var dark = L.layerGroup([
+      L.tileLayer(ESRI + 'Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {attribution: ESRI_ATTR + ' &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap', maxZoom: 16}),
+      L.tileLayer(ESRI + 'Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {maxZoom: 16})
+    ]);
+    var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>', maxZoom: 19});
+    var sat = L.layerGroup([
+      L.tileLayer(ESRI + 'World_Imagery/MapServer/tile/{z}/{y}/{x}', {attribution: ESRI_ATTR + ' &mdash; Maxar, Earthstar Geographics', maxZoom: 19}),
+      L.tileLayer(ESRI + 'Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {maxZoom: 19})
+    ]);
+    return {dark: dark, osm: osm, sat: sat};
+  }
+  var UZ = [[37.1, 55.9], [45.6, 73.2]];
+  function esc(s){ return String(s || '').replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function build(el, points, opts){
+    var map = L.map(el, {zoomControl: !!opts.big, attributionControl: !!opts.big, scrollWheelZoom: !!opts.big});
+    var ly = layers();
+    ly.dark.addTo(map);
+    if (opts.big) {
+      var names = {};
+      names[T.dark] = ly.dark; names[T.osm] = ly.osm; names[T.sat] = ly.sat;
+      L.control.layers(names, null, {position: 'topright', collapsed: false}).addTo(map);
+    }
+    var group = [];
+    points.forEach(function(p){
+      var m = L.circleMarker([p.lat, p.lng], {
+        radius: opts.big ? 9 : 6, weight: 2, color: p.approx ? '#d8b45c' : '#9cc2ff',
+        fillColor: p.approx ? '#eab308' : '#2f80ff', fillOpacity: .9
+      }).addTo(map);
+      m.bindPopup(
+        (p.img ? '<img class="map-pop__img" src="' + esc(p.img) + '" alt="">' : '') +
+        '<div class="map-pop__title">' + esc(p.title) + '</div>' +
+        '<div class="map-pop__meta">' + esc(p.date) + (p.place ? ' · ' + esc(p.place) : '') + (p.approx ? ' · ' + T.approx : '') + '</div>' +
+        '<a class="map-pop__link" href="' + esc(p.url) + '">' + esc(T.more) + '</a>', {maxWidth: 240});
+      if (opts.big || points.length === 1) m.bindTooltip(esc(p.title).slice(0, 60), {direction: 'top'});
+      group.push([p.lat, p.lng]);
+    });
+    if (group.length === 1) map.setView(group[0], opts.big ? 14 : 12);
+    else if (group.length) map.fitBounds(group, {padding: [24, 24], maxZoom: 12});
+    else map.fitBounds(UZ);
+    return map;
+  }
+  var live = {};
+  document.querySelectorAll('.map-live[data-points]').forEach(function(el){
+    var pts = [];
+    try { pts = JSON.parse(el.getAttribute('data-points')) || []; } catch (e) {}
+    el.innerHTML = '';
+    live[el.id] = pts;
+    build(el, pts, {big: false});
+  });
+  var modal = document.getElementById('mapModal'), bigMap = null;
+  function closeModal(){ modal.hidden = true; document.body.classList.remove('lb-open'); if (bigMap) { bigMap.remove(); bigMap = null; } }
+  document.querySelectorAll('[data-map-expand]').forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      e.preventDefault();
+      modal.hidden = false; document.body.classList.add('lb-open');
+      var box = document.getElementById('mapModalMap');
+      box.innerHTML = '';
+      bigMap = build(box, live[btn.getAttribute('data-map-expand')] || [], {big: true});
+      setTimeout(function(){ bigMap.invalidateSize(); }, 50);
+    });
+  });
+  if (modal) {
+    modal.querySelector('.map-modal__close').addEventListener('click', closeModal);
+    modal.addEventListener('click', function(e){ if (e.target === modal) closeModal(); });
+    document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && !modal.hidden) closeModal(); });
+  }
+})();
+</script>

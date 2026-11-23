@@ -1,0 +1,18 @@
+# Ma'lumotlar bazalari (admin hisoblari va parol xeshlari bor)
+*.sqlite3
+
+# Media va yig'ilgan statik fayllar (2 GB dan ortiq, serverga alohida ko'chiriladi)
+media/
+staticfiles/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# IDE va Claude sozlamalari
+.idea/
+.claude/
+.mcp.json
